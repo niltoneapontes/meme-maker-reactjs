@@ -3,6 +3,7 @@ import qs from 'qs';
 
 import { Wrapper, Card, Templates, Form, Button } from './styles';
 import logo from '../../assets/logo.svg';
+import memeguy from '../../assets/memeguy.png';
 
 export default function Home() {
     const [templates, setTemplates] = useState([]);
@@ -52,7 +53,8 @@ export default function Home() {
 
     return(
         <Wrapper>
-            <img src={logo} alt="MemeMaker"/>
+            <img src={memeguy} alt="MemeGuy" width="180"/>
+            <h1>The Meme Guy</h1>
 
             <Card>
 
@@ -96,7 +98,7 @@ export default function Home() {
                        )))}
     
                         <Button type="submit">
-                            Make my Meme!
+                            Ready !
                         </Button>
                     </Form>
                     </>

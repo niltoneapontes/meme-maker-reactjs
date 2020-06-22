@@ -1,17 +1,28 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    h1{
+        font-size: 48px;
+        font-family: 'Press Start 2P', cursive;
+        color: #eee;
+        margin-bottom: 10px;
+        margin-top: 24px;
+    }
 `;
 
 export const Card = styled.div`
-    background: #fff;
+    background: #333;
     width: 550px;
+    color: #fff;
     border-radius: 8px;
     margin-top: 15px;
     padding: 20px;
@@ -19,7 +30,7 @@ export const Card = styled.div`
 
     h2{
         font-size: 22px;
-        color: #392d2d;
+        color: #eee;
         margin-bottom: 10px;
     }
 `;
@@ -27,7 +38,7 @@ export const Card = styled.div`
 export const Templates = styled.div`
     width: 100%;
     height: 90px;
-    background: #eee;
+    background: #222;
     border-radius: 8px;
     overflow-y: auto;
     display: flex;
@@ -42,7 +53,7 @@ export const Templates = styled.div`
         border: 2px solid transparent;
 
     &.selected {
-        border-color: #4395d8;
+        border-color: #ffad1f;
     }
         img{
             width: 53px;
@@ -68,13 +79,14 @@ export const Button = styled.button`
         height: 40px;
         border-radius: 8px;
         border: 0;
-        background: #4395d8;
-        color: #fff;
+        background: #ffad1f;
+        color: #333;
         font-weight: bold;
         font-size: 14px;
         transition: background 0.2s ease-in;
 
         &:hover{
-            background: #3672a3;
+            background: #fa7a0d;
+            color: #fff;
         }
 `;
