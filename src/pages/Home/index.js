@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import qs from 'qs';
 
-import { Wrapper, Card, Templates, Form, Button } from './styles';
-import logo from '../../assets/logo.svg';
+import { Wrapper, Card, Templates, Form, Button } from './styles.js';
+// import logo from '../../assets/logo.svg';
 import memeguy from '../../assets/memeguy.png';
 
 export default function Home() {
