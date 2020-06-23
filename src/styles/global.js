@@ -118,8 +118,9 @@ h1{
         color: #333;
         font-weight: bold;
         font-size: 14px;
+        font-family: 'Press Start 2P', cursive;
         text-align: center;
-        padding-top: 18px;
+        padding-top: 7px;
         transition: background 0.2s ease-in;
 
         &:hover{
