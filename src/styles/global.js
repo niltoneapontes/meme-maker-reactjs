@@ -5,6 +5,8 @@ export default createGlobalStyle`
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 
 *{
     margin: 0;
@@ -35,6 +37,15 @@ input{
 button{
     cursor:pointer;
 }
+
+h1{
+        font-size: 48px;
+        font-family: 'Press Start 2P', cursive;
+        color: #eee;
+        margin-bottom: 10px;
+        margin-top: 24px;
+}
+
 `;
 
 export const Wrapper = styled.div`
