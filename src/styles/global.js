@@ -117,9 +117,9 @@ h1{
         background: #ffad1f;
         color: #333;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
-        align-items: center;
+        padding-top: 18px;
         transition: background 0.2s ease-in;
 
         &:hover{

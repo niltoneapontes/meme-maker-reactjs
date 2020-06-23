@@ -85,7 +85,7 @@ export default function Home() {
                     
                     {selectedTemplate && (<>
                         <h2>Textos</h2>
-                    <div className="Form" onSubmit={handleSubmit}>
+                    <form className="Form" onSubmit={handleSubmit}>
                        {(new Array(selectedTemplate.box_count).fill('').map((_,index) =>(
             
                            <input
@@ -100,7 +100,7 @@ export default function Home() {
                         <div className="Button" type="submit">
                             Ready !
                         </div>
-                    </div>
+                    </form>
                     </>
                     )}
                 </>
