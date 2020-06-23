@@ -97,9 +97,9 @@ export default function Home() {
                        
                        )))}
     
-                        <div className="Button" type="submit">
+                        <button className="Button" type="submit">
                             Ready !
-                        </div>
+                        </button>
                     </form>
                     </>
                     )}
