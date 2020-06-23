@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import qs from 'qs';
 
-import { Wrapper, Card, Templates, Form, Button } from './styles.js';
+import { Wrapper, Card, Templates, Form, Button } from '../../styles/global';
 // import logo from '../../assets/logo.svg';
 import memeguy from '../../assets/memeguy.png';
 
