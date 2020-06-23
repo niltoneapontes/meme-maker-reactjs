@@ -12,8 +12,6 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', 'Montserrat', sans-serif;
-    align-items: center;
-    justify-content: center;
 }
 
 ::-webkit-scrollbar{
