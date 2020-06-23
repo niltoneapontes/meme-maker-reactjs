@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import qs from 'qs';
 
-import { Wrapper, Card, Templates, Form, Button } from '../../styles/global';
+// import { Wrapper, Card, Templates, Form, Button } from '../../styles/global';
 // import logo from '../../assets/logo.svg';
 import memeguy from '../../assets/memeguy.png';
 
@@ -52,25 +52,25 @@ export default function Home() {
     }
 
     return(
-        <Wrapper>
+        <div className="Wrapper">
             <img src={memeguy} alt="MemeGuy" width="180"/>
             <h1>The Meme Guy</h1>
 
-            <Card>
+            <div className="Card">
 
                 {generatedMeme && (
                     <>
                         <img src={generatedMeme} alt="Generated meme"/>
-                        <Button type="button" onClick={handleReset}>
+                        <button className="Button" type="button" onClick={handleReset}>
                             Criar outro meme
-                        </Button>
+                        </button>
                     </>
                 )}
 
                 {!generatedMeme && (
                     <>
                     <h2>Selecione um template</h2>
-                    <Templates>
+                    <div className="Templates">
                         {templates.map(template => (
                             <button 
                             key={template.id}
@@ -81,11 +81,11 @@ export default function Home() {
                                 <img src={template.url} alt={template.name}/>
                             </button>
                         ))}
-                    </Templates>
+                    </div>
                     
                     {selectedTemplate && (<>
                         <h2>Textos</h2>
-                    <Form onSubmit={handleSubmit}>
+                    <div className="Form" onSubmit={handleSubmit}>
                        {(new Array(selectedTemplate.box_count).fill('').map((_,index) =>(
             
                            <input
@@ -97,17 +97,17 @@ export default function Home() {
                        
                        )))}
     
-                        <Button type="submit">
+                        <div className="Button" type="submit">
                             Ready !
-                        </Button>
-                    </Form>
+                        </div>
+                    </div>
                     </>
                     )}
                 </>
                 )}
 
-            </Card>
+            </div>
 
-        </Wrapper>
+        </div>
     )
 }
