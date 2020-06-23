@@ -52,6 +52,7 @@ export default function Home() {
     }
 
     return(
+    <>
         <div className="Wrapper">
             <img src={memeguy} alt="MemeGuy" width="180"/>
             <h1>The Meme Guy</h1>
@@ -107,7 +108,8 @@ export default function Home() {
                 )}
 
             </div>
-        <footer>Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></footer>
         </div>
-    )
+        <footer>Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></footer>
+    </>
+)
 }
