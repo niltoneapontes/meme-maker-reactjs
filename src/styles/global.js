@@ -129,4 +129,16 @@ h1{
         }
 }
 
+footer{
+    font-size: 12px;
+    color: #eee;
+    background: #222;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
 `;
