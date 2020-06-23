@@ -120,7 +120,7 @@ h1{
         font-size: 14px;
         font-family: 'Press Start 2P', cursive;
         text-align: center;
-        padding-top: 7px;
+        padding-top: 5px;
         transition: background 0.2s ease-in;
 
         &:hover{

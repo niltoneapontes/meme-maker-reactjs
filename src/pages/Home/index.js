@@ -98,7 +98,7 @@ export default function Home() {
                        )))}
     
                         <button className="Button" type="submit">
-                            Ready !
+                            GO!
                         </button>
                     </form>
                     </>
