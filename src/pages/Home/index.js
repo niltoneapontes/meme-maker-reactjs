@@ -60,7 +60,7 @@ export default function Home() {
 
                 {generatedMeme && (
                     <>
-                        <img src={generatedMeme} alt="Generated meme"/>
+                        <img src={generatedMeme} width="510" alt="Generated meme"/>
                         <button className="Button" type="button" onClick={handleReset}>
                             Criar outro meme
                         </button>
