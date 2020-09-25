@@ -1,5 +1,25 @@
 # The Meme Guy - Gerador de Memes
 
+
+<p align="center">
+ <a>
+  <img src="https://img.shields.io/github/last-commit/niltoneapontes/meme-maker-reactjs" alt="Last commit badge" />
+ </a>
+ <a>
+  <img src="https://img.shields.io/github/languages/count/niltoneapontes/meme-maker-reactjs" alt="Languages badge" />
+ </a>
+ <a>
+  <img src="https://img.shields.io/github/languages/code-size/niltoneapontes/meme-maker-reactjs" alt="Code size in bytes" />
+ </a>
+ <a>
+  <img src="https://img.shields.io/github/stars/niltoneapontes/meme-maker-reactjs?style=social" alt="Github repo stars" />
+ </a>
+ <a>
+  <img src="https://img.shields.io/github/followers/niltoneapontes?style=social" alt="Github followers" />
+ </a>
+</p>
+
+
 Esta aplicação foi desenvolvida com base em uma vídeo-aula do Mateus Silva (https://www.youtube.com/watch?v=Yajip86C8sg&t=2s) e consome os dados fornecidos pela API [ImgFlip](http://api.imgflip.com/ "ImgFlip"). 
 
 A aplicação web está disponível [neste endereço](https://the-meme-guy.herokuapp.com/ "neste endereço").
